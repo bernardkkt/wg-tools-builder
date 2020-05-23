@@ -10,7 +10,3 @@ cd wireguard-tools/src
 
 # Build
 make wg
-
-# Artefacts
-ls wg
-ls wg-quick/linux.bash
