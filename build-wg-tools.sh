@@ -9,4 +9,4 @@ git clone --depth=1 https://git.zx2c4.com/wireguard-tools
 cd wireguard-tools/src
 
 # Build
-make wg
+make wg LDFLAGS="--static"
